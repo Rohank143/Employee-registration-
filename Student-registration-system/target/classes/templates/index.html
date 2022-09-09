@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<style type="text/css">
+body {
+	background: url("https://cdn.shrm.org/image/upload/c_crop%2Ch_705%2Cw_1254%2Cx_0%2Cy_15/c_fit%2Cf_auto%2Cq_auto%2Cw_767/v1/Legal%20and%20Compliance/reviewing_paperwork_and_on_computer_pierld?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjE1LCJ4MiI6MTI1NCwieTIiOjcyMCwidyI6MTI1NCwiaCI6NzA1fX0%3D");
+
+	
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  
+
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Welcome to Student Registration</title>
+
+
+
+</head>
+<body>
+	<div class="container text-center">
+		<h1 style="font-size: 50px;">Welcome to Student Registration</h1>
+		<h3 style="text-decoration: underline; padding-left: 300px; ">
+			<a th:href="@{/users}">List of Users</a>
+		</h3 >
+		<h3 style="text-decoration: underline; padding-left: 300px;">
+			<a th:href="@{/register}">Register</a>
+		</h3>
+		<h3 style="text-decoration: underline; padding-left: 300px;">
+			<a th:href="@{/login}">Login</a>
+		</h3>
+
+	</div>
+
+
+
+</body>
+</html>
